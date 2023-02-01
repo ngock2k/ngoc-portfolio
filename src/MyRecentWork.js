@@ -6,7 +6,10 @@ export const MyRecentWork = () => {
             }}>
                
            <div style={{font:'Poppins',
-        fontSize: 64, fontWeight:700 }}>
+            fontSize: 64, 
+            fontWeight:700,
+            paddingTop: '268',
+             }}>
            <p>
             My recent 
             <span style={{ color: '#00ADB5'}}>
