@@ -4,6 +4,7 @@ import { Header } from './Header'
 import { CREATIVEUI } from './CREATIVEUI'
 import { Aboutme } from './Aboutme'
 import { MyRecentWork } from './MyRecentWork'
+import { Gotaproject } from './Gotaproject'
 function App() {
   return (
     <div style={{
@@ -13,19 +14,19 @@ function App() {
       <Header />
       <div style={{
         position: 'absolute',
-      paddingLeft: 512
-     }}>
-     <img src="images/Line 1.png"
-       style={{width: 1, height: '130vh'}} /> 
+        paddingLeft: 512
+      }}>
+        <img src="images/Line 1.png"
+          style={{ width: 1, height: '130vh' }} />
 
-            </div>
+      </div>
       <div style={{
-      position: 'absolute',
-      // paddingtop: 300
-     }}>
-     <img src="images/Line 2.png"
-       style={{width: '150%', height: 1}} /> 
-       </div>
+        position: 'absolute',
+        // paddingtop: 300
+      }}>
+        <img src="images/Line 2.png"
+          style={{ width: '150%', height: 1 }} />
+      </div>
       <div style={{
         position: 'absolute',
         paddingTop: 385,
@@ -37,6 +38,14 @@ function App() {
       <CREATIVEUI />
       <Aboutme />
       <MyRecentWork />
+     
+      <Gotaproject />
+      <div style={{ position:'absolute',
+           paddingTop:118,
+           paddingLeft:820}}>
+         <img src="images/keyboard.png" 
+         style={{height:64,width:140 }} />
+      </div>
     </div>
   );
 }
