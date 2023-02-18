@@ -126,7 +126,7 @@ export const Gotaproject = () => {
                         justifyContent: 'flex-start'
                     }} >
                         <input
-                            placeholder={"Message  "}
+                            placeholder={"Message message messagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessage "}
                             type="text"
                             multiple
                             style={{
@@ -138,7 +138,7 @@ export const Gotaproject = () => {
                                 fontWeight: 700,
                                 border: 'none',
                                 outline: 'none',
-                                verticalAlign: 'text-top',
+                                // verticalAlign: 'text-tsop',
                                 
                             }} />
                     </div>
