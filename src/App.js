@@ -5,6 +5,7 @@ import { CREATIVEUI } from './CREATIVEUI'
 import { Aboutme } from './Aboutme'
 import { MyRecentWork } from './MyRecentWork'
 import { Gotaproject } from './Gotaproject'
+import { Footer } from './Footer'
 function App() {
   return (
     <div style={{
@@ -40,12 +41,8 @@ function App() {
       <MyRecentWork />
      
       <Gotaproject />
-      <div style={{ position:'absolute',
-           paddingTop:118,
-           paddingLeft:820}}>
-         <img src="images/keyboard.png" 
-         style={{height:64,width:140 }} />
-      </div>
+      <Footer />
+
     </div>
   );
 }
