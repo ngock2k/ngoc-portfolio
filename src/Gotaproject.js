@@ -47,7 +47,7 @@ export const Gotaproject = () => {
                         mind?
                     </span>
                 </p>
-                <div>
+                <div >
                     <img
                         src="images/Vector 186 (1).png"
                         style={{ height: 170, width: 113 }}
@@ -55,12 +55,12 @@ export const Gotaproject = () => {
                     <img
                         src="images/Group 2372.png"
                         style={{
-                            display: 'flex',
+                            // display: 'flex',
                             height: 348,
                             width: 256,
                             // backgroundColor: 'red',
                             marginLeft: 50,
-                            objectFit: 'contain'
+                            // objectFit: 'contain'
                         }}
                     />
                 </div>
