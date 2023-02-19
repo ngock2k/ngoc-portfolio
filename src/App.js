@@ -6,11 +6,13 @@ import { Aboutme } from './Aboutme'
 import { MyRecentWork } from './MyRecentWork'
 import { Gotaproject } from './Gotaproject'
 import { Footer } from './Footer'
+
 function App() {
   return (
     <div style={{
       display: 'flex',
       flexDirection: 'column',
+      
     }} >
       <Header />
       <div style={{
@@ -39,10 +41,8 @@ function App() {
       <CREATIVEUI />
       <Aboutme />
       <MyRecentWork />
-     
       <Gotaproject />
       <Footer />
-
     </div>
   );
 }

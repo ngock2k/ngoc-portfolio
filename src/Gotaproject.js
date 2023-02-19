@@ -2,26 +2,28 @@ export const Gotaproject = () => {
     return (
         <div style={{
             display: 'flex',
-            height: '100VH',
+            // height: '100VH',
             backgroundColor: '#222831',
             flexDirection: 'row',
             // paddingLeft: 96,
             // paddingTop: 258,
         }}>
-            <div style={{ position:'absolute',
-                paddingTop:118,
-                paddingLeft:820}}>
-           <img src="images/keyboard.png" 
-                style={{height:64,width:140 }} />
+            <div style={{
+                position: 'absolute',
+                paddingTop: 118,
+                paddingLeft: 820
+            }}>
+                <img src="images/keyboard.png"
+                    style={{ height: 64, width: 140 }} />
             </div>
-           <div style={{
-                 position:"absolute",
-                 paddingTop:812,
-                 paddingLeft:1200
-           }}>
-           <img src="images/mail.png"
-                style={{width:58, height:50}} />
-           </div>
+            <div style={{
+                position: "absolute",
+                paddingTop: 812,
+                paddingLeft: 1200
+            }}>
+                <img src="images/mail.png"
+                    style={{ width: 58, height: 50 }} />
+            </div>
             <div style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -46,10 +48,21 @@ export const Gotaproject = () => {
                     </span>
                 </p>
                 <div>
-                    <img src="images/Vector 186 (1).png"
-                        style={{ height: 170, width: 113 }} />
-                    <img src="images/Group 2372.png"
-                        style={{ height: 348, width: 256, marginLeft: 50 }} />
+                    <img
+                        src="images/Vector 186 (1).png"
+                        style={{ height: 170, width: 113 }}
+                    />
+                    <img
+                        src="images/Group 2372.png"
+                        style={{
+                            display: 'flex',
+                            height: 348,
+                            width: 256,
+                            // backgroundColor: 'red',
+                            marginLeft: 50,
+                            objectFit: 'contain'
+                        }}
+                    />
                 </div>
             </div>
             <div style={{
@@ -139,7 +152,7 @@ export const Gotaproject = () => {
                                 border: 'none',
                                 outline: 'none',
                                 // verticalAlign: 'text-tsop',
-                                
+
                             }} />
                     </div>
 
@@ -169,6 +182,5 @@ export const Gotaproject = () => {
                 </div>
             </div>
         </div>
-
     )
 }
