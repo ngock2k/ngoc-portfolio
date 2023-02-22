@@ -12,7 +12,9 @@ function App() {
     <div style={{
       display: 'flex',
       flexDirection: 'column',
-      
+      // width:'100vw',
+      // height: '100vh',
+      // overflow: 'hidden'
     }} >
       <Header />
       <div style={{
@@ -20,15 +22,16 @@ function App() {
         paddingLeft: 512
       }}>
         <img src="images/Line 1.png"
-          style={{ width: 1, height: '130vh' }} />
-
+          style={{ width: 1, height: '100vh' }} />
       </div>
       <div style={{
         position: 'absolute',
-        // paddingtop: 300
+        top: 60,
+        left: 0,
+        right: 0,
       }}>
         <img src="images/Line 2.png"
-          style={{ width: '150%', height: 1 }} />
+          style={{ width: '100%', height: 1 }} />
       </div>
       <div style={{
         position: 'absolute',

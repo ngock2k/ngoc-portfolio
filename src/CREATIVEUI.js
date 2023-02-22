@@ -2,10 +2,11 @@
 export const CREATIVEUI = () => {
     return (
      <div style={{ 
-     height: "100vh",
+    //  height: "100vh",
      backgroundColor: '#222831',
-    //  display: 'flex',
-     textAlign: 'left',
+     display: 'flex',
+     flexDirection:'column',
+    //  textAlign: 'left',
      paddingLeft: 180,
      paddingTop: 202, 
      
@@ -79,11 +80,11 @@ export const CREATIVEUI = () => {
      </div>
      </div>
      <div style={{
-        position: 'absolute',
+        // position: 'absolute',
         paddingTop: 243,
       paddingLeft: 284
      }}>
-     <img src="images/Frame 7.png"
+     <img src="images/mũiten.png"
        style={{width: 96, height: 96}} /> 
        </div> 
      </div>  
