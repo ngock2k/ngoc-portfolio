@@ -1,7 +1,7 @@
 export const MyRecentWork = () => {
     return (
         <div style={{ 
-            height: "100vh",
+            // height: "100vh",
             backgroundImage: `URL('images/Projects Page (2).png')`
             ,paddingLeft: 120
             }}>

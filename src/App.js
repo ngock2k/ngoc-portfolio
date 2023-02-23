@@ -22,7 +22,7 @@ function App() {
         paddingLeft: 512
       }}>
         <img src="images/Line 1.png"
-          style={{ width: 1, height: '100vh' }} />
+          style={{ width: 1, height: 1024 }} />
       </div>
       <div style={{
         position: 'absolute',
