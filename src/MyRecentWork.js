@@ -1,16 +1,20 @@
 export const MyRecentWork = () => {
     return (
         <div style={{ 
-            // height: "100vh",
-            backgroundImage: `URL('images/Projects Page (2).png')`
-            ,paddingLeft: 120
+            display:'flex',
+            flexDirection:'column',
+            backgroundImage: `URL('images/Projects Page (2).png')`,
+            paddingLeft: 104,
+            fontWeight:700,
+            font:'Poppins',
             }}>
                
            <p style={ {color:'white',
-        font:'Poppins',
-        fontSize: 64, 
-        fontWeight:700,
+        fontSize: 64,
         paddingTop: 100,
+        // backgroundColor:'white',
+        marginBottom:16,
+        marginLeft:16
         } }>
             My recent 
             <span style={{ color: '#00ADB5'}}>
@@ -19,11 +23,11 @@ export const MyRecentWork = () => {
            </p>
            <div style={{
             display:'flex',
-            font:'Poppins',
-            fontWeight:700,
             fontSize: 18,
             color: 'white',
-            paddingBottom:48
+            marginBottom:48,
+            marginLeft:0
+            // backgroundColor:'red'
             }}>
                 
            {["All","UI","UX","Web Design"].map(item => {
@@ -50,6 +54,11 @@ export const MyRecentWork = () => {
              })}
             
            </div>
+           <div style={{
+            display:'flex',
+            // backgroundColor:'yellow',
+            marginBottom:271
+           }}>
            {["images/Frame10.png","images/Frame11.png","images/Frame10(1).png"].map(item => {
             return(
                 <img src={item}
@@ -59,6 +68,7 @@ export const MyRecentWork = () => {
              height: 280}} /> 
             )
            })}
+           </div>
            
 
         

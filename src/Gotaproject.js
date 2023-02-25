@@ -2,33 +2,22 @@ export const Gotaproject = () => {
     return (
         <div style={{
             display: 'flex',
-            // height: '100VH',
             backgroundColor: '#222831',
             flexDirection: 'row',
-            // paddingLeft: 96,
+            paddingLeft: 96,
             // paddingTop: 258,
         }}>
             <div style={{
-                position: 'absolute',
-                paddingTop: 118,
-                paddingLeft: 820
-            }}>
-                <img src="images/keyboard.png"
-                    style={{ height: 64, width: 140 }} />
-            </div>
-            <div style={{
-                position: "absolute",
-                paddingTop: 812,
-                paddingLeft: 1200
-            }}>
-                <img src="images/mail.png"
-                    style={{ width: 58, height: 50 }} />
+                position:'absolute',
+                paddingLeft:416
+        }}>
+                <img src="images/Line 2.png"
+                style={{width:0.5,height:1024}} />
             </div>
             <div style={{
                 display: 'flex',
                 flexDirection: 'column',
-                paddingLeft: 96,
-                paddingTop: 258
+                paddingTop: 258,
                 //   backgroundColor:'yellow'  
             }}>
                 <p style={{
@@ -37,7 +26,8 @@ export const Gotaproject = () => {
                     fontSize: 64,
                     fontWeight: 700,
                     marginTop: 0,
-                    // backgroundColor:'red'
+                    marginBottom:0,
+                    lineHeight:'80px',
                 }}>
                     Got a project in
                     <span style={{
@@ -47,20 +37,23 @@ export const Gotaproject = () => {
                         mind?
                     </span>
                 </p>
-                <div >
+                <div style={{
+                    display:'flex',
+                    }}>
                     <img
                         src="images/Vector 186 (1).png"
-                        style={{ height: 170, width: 113 }}
+                        style={{ 
+                            height: 170,
+                             width: 113,
+                            marginTop:32,
+                        marginLeft:22 }}
                     />
                     <img
                         src="images/Group 2372.png"
                         style={{
-                            // display: 'flex',
                             height: 348,
                             width: 256,
-                            // backgroundColor: 'red',
-                            marginLeft: 50,
-                            // objectFit: 'contain'
+                            marginLeft: 16.44,
                         }}
                     />
                 </div>
@@ -72,12 +65,19 @@ export const Gotaproject = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 font: 'Poppins',
-                paddingLeft: 232,
-                paddingLeft: 96,
-                paddingTop: 258
+                // backgroundColor:'red',
+                paddingLeft: 174,
+                paddingTop: 60
             }}>
+                 <img src="images/keyboard.png"
+                    style={{ 
+                        height: 63.5,
+                        width: 139.2,
+                        paddingLeft:76,
+                          }} />
                 <div style={{
                     display: 'flex',
+                    marginTop:83,
 
                 }}>
                     <div>
@@ -91,10 +91,10 @@ export const Gotaproject = () => {
                                 color: '#EEEEEE80',
                                 backgroundColor: '#393E4680',
                                 borderRadius: 16,
-                                width: 264,
-                                height: 59,
                                 fontSize: 18,
                                 fontWeight: 700,
+                                width: 264,
+                                height: 59,
                                 border: 0,
                                 paddingLeft: 24
                             }} />
@@ -180,6 +180,14 @@ export const Gotaproject = () => {
                             marginTop: 10,
                         }} />
                 </div>
+                <img src="images/mail.png"
+                    style={{
+                        width: 58,
+                        height: 50,
+                        paddingTop:17,
+                        paddingLeft:456,
+                        marginBottom:170
+                         }} />
             </div>
         </div>
     )

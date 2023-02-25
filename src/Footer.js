@@ -3,15 +3,25 @@ export const Footer = () => {
         <div style={{
             display:'flex',
             backgroundColor:'#222831',
-            height:350,
-            width:'100%',
-            paddingTop:100,
+            height:420,
             flexDirection:'column',
             justifyContent:'center'
         }}>
+            <div style={{
+                position:'absolute',
+                paddingLeft:512
+            }}>
+                <img src="images/Line 2.png"
+                style={{
+                width:0.5,
+                height:400,
+                }} />
+            </div>
            <div style={{
             display:'flex',
-            justifyContent:'center'
+            justifyContent:'center',
+            // backgroundColor:'red',
+            paddingTop:100
            }}>
             {[
                 {
@@ -55,7 +65,10 @@ export const Footer = () => {
              <div  style={{
             display:'flex',
             justifyContent:'center',
-            marginTop:38}}>
+            marginTop:38,
+            // backgroundColor:'yellow',
+            
+            }}>
             {[
                 "images/facebook.png",
                 "images/insta.png",
@@ -73,24 +86,19 @@ export const Footer = () => {
                     )
                 })}
                 </div>
-                <div style={{
-                    display:'flex',
-                    // backgroundColor:'red',
-                    paddingTop:44,
-                    justifyContent:'end',
-                    flex:1
-                }}>
                 <p style={{
-                    color:'white',
+                    color:'#EEEEEEBF',
                     font:'Poppins',
                     fontWeight:400,
                     fontSize:18,
-                    marginTop:48,
-                    marginRight:96
+                    marginTop:92,
+                    marginBottom:48,
+                    marginLeft:1055,
+                    // backgroundColor:'red',
                 }}>
                     Terms of Service - Privacy Policy
                 </p>
-                </div>
+                
 
         </div>
     )
